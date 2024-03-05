@@ -17,7 +17,7 @@ A descrição do projeto de jogo deverá reunir o conjunto de informações nece
 * Em cada turno, cada jogador irá escolher sua jogada (Pedra papel ou Tesoura);
 * Será verificado o resultado conforme diagrama abaixo.
 ```mermaid
-flowchart TD
+graph TD
     A[Pedra]-- Vence --> B[Tesoura];
     B -- Vence --> C[Papel];
     C -- Vence --> A;
