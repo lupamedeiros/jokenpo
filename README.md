@@ -8,17 +8,26 @@ A descrição do projeto de jogo deverá reunir o conjunto de informações nece
 
 ### Regras do Jogo
 
-* O jogo será disputado em uma melhor de 05 (cinco) turnos;
-* O primeiro jogador a conseguir 3 vitórias ganha;
-* Um turno não pode acabar em empate (caso haja empate, os jogadores jogam novamente até que haja um vencedor);
+- O jogo será disputado em uma melhor de 05 (cinco) turnos;
+- O primeiro jogador a conseguir 3 vitórias ganha;
+- Um turno não pode acabar em empate (caso haja empate, os jogadores jogam novamente até que haja um vencedor);
 
 ### Regras do Turno
 
-* Em cada turno, cada jogador irá escolher sua jogada (Pedra papel ou Tesoura);
-* Será verificado o resultado conforme diagrama abaixo.
+- Em cada turno, cada jogador irá escolher sua jogada (Pedra papel ou Tesoura);
+- Será verificado o resultado conforme diagrama abaixo.
+  
 ```mermaid
 graph TD
     A[Pedra]-- Vence --> B[Tesoura];
     B -- Vence --> C[Papel];
     C -- Vence --> A;
 ```
+
+## Etapa 02 - Descrição dos Dados do Jogo
+
+A descrição dos dados do jogo permite identificar o conjunto e o tipo das variáveis que precisaremos criar para o seu funcionamento.
+
+V.J1
+: Vitórias do jogador 1
+
